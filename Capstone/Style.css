@@ -1,0 +1,44 @@
+/* This controls the title that is inside of the head element */
+head > title {
+    font-weight: bold;          /* Set font weight to bold */
+    font-size: 2em;             /* Set font size to 2em (adjust as needed) */
+    text-align: center;         /* Center-align the text */
+}
+
+/* This controls the body and all the elements inside of it overall */
+body {
+    color: aliceblue;
+}
+
+/* This controls the heading level 1 (h1) inside the body */
+h1 {
+    color: #000;
+    font-weight: bold;           /* Set font weight to bold */
+    text-align: center;          /* Center-align the text */
+}
+
+/* This controls paragraphs (p) inside the body */
+body > p {
+    text-align: center;          /* Center-align the text */
+    margin: 10px;
+    padding: 10px;
+}
+
+/* This controls all div elements inside the body */
+section, p {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px; /* Adjust as needed */
+    color: black;
+}
+
+#section2, #section3 {
+    padding: 10px;
+    width: 30%; /* Adjust as needed */
+}
+
+#button1, #button2 {
+    color: gray; /* Adjust as needed */
+    margin: 10px;
+}
